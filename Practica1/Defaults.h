@@ -1,15 +1,16 @@
 //
-//  ViewController.h
+//  Defaults.h
 //  Practica1
 //
 //  Created by Chiunti on 17/01/15.
 //  Copyright (c) 2015 Chiunti. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+NSMutableArray *imgArray;
+int pos;
 
+@interface Defaults : NSObject
 
 @end
-

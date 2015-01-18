@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		3CEA35511A6B48F90090E73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA35501A6B48F90090E73B /* main.m */; };
 		3CEA35541A6B48F90090E73B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA35531A6B48F90090E73B /* AppDelegate.m */; };
-		3CEA35571A6B48F90090E73B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA35561A6B48F90090E73B /* ViewController.m */; };
+		3CEA35571A6B48F90090E73B /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA35561A6B48F90090E73B /* Welcome.m */; };
 		3CEA355A1A6B48F90090E73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35581A6B48F90090E73B /* Main.storyboard */; };
 		3CEA355C1A6B48F90090E73B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA355B1A6B48F90090E73B /* Images.xcassets */; };
 		3CEA355F1A6B48F90090E73B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA355D1A6B48F90090E73B /* LaunchScreen.xib */; };
 		3CEA356B1A6B48F90090E73B /* Practica1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA356A1A6B48F90090E73B /* Practica1Tests.m */; };
+		3CEA357B1A6B4EB10090E73B /* Bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35751A6B4EB10090E73B /* Bart.png */; };
+		3CEA357C1A6B4EB10090E73B /* Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35761A6B4EB10090E73B /* Family.jpg */; };
+		3CEA357D1A6B4EB10090E73B /* Homero.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35771A6B4EB10090E73B /* Homero.png */; };
+		3CEA357E1A6B4EB10090E73B /* Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35781A6B4EB10090E73B /* Lisa.png */; };
+		3CEA357F1A6B4EB10090E73B /* Maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35791A6B4EB10090E73B /* Maggie.png */; };
+		3CEA35801A6B4EB10090E73B /* Marge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA357A1A6B4EB10090E73B /* Marge.png */; };
+		3CEA35821A6B50520090E73B /* The_Simpson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA35811A6B50520090E73B /* The_Simpson.png */; };
+		3CEA35851A6B53640090E73B /* Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA35841A6B53640090E73B /* Defaults.m */; };
+		3CEA358B1A6B65DF0090E73B /* ShowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA358A1A6B65DF0090E73B /* ShowItem.m */; };
+		3CEA358E1A6B66D00090E73B /* EditItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEA358D1A6B66D00090E73B /* EditItem.m */; };
+		3CEA35901A6B6B690090E73B /* arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CEA358F1A6B6B690090E73B /* arrow-back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +43,28 @@
 		3CEA35501A6B48F90090E73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CEA35521A6B48F90090E73B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CEA35531A6B48F90090E73B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CEA35551A6B48F90090E73B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CEA35561A6B48F90090E73B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CEA35551A6B48F90090E73B /* Welcome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		3CEA35561A6B48F90090E73B /* Welcome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
 		3CEA35591A6B48F90090E73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CEA355B1A6B48F90090E73B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CEA355E1A6B48F90090E73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3CEA35641A6B48F90090E73B /* Practica1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practica1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEA35691A6B48F90090E73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEA356A1A6B48F90090E73B /* Practica1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practica1Tests.m; sourceTree = "<group>"; };
+		3CEA35751A6B4EB10090E73B /* Bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bart.png; path = ../../../../Downloads/simpsons/Bart.png; sourceTree = "<group>"; };
+		3CEA35761A6B4EB10090E73B /* Family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Family.jpg; path = ../../../../Downloads/simpsons/Family.jpg; sourceTree = "<group>"; };
+		3CEA35771A6B4EB10090E73B /* Homero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Homero.png; path = ../../../../Downloads/simpsons/Homero.png; sourceTree = "<group>"; };
+		3CEA35781A6B4EB10090E73B /* Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lisa.png; path = ../../../../Downloads/simpsons/Lisa.png; sourceTree = "<group>"; };
+		3CEA35791A6B4EB10090E73B /* Maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Maggie.png; path = ../../../../Downloads/simpsons/Maggie.png; sourceTree = "<group>"; };
+		3CEA357A1A6B4EB10090E73B /* Marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Marge.png; path = ../../../../Downloads/simpsons/Marge.png; sourceTree = "<group>"; };
+		3CEA35811A6B50520090E73B /* The_Simpson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = The_Simpson.png; path = ../../../../Downloads/simpsons/The_Simpson.png; sourceTree = "<group>"; };
+		3CEA35831A6B53640090E73B /* Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defaults.h; sourceTree = "<group>"; };
+		3CEA35841A6B53640090E73B /* Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Defaults.m; sourceTree = "<group>"; };
+		3CEA35891A6B65DF0090E73B /* ShowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowItem.h; sourceTree = "<group>"; };
+		3CEA358A1A6B65DF0090E73B /* ShowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowItem.m; sourceTree = "<group>"; };
+		3CEA358C1A6B66D00090E73B /* EditItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditItem.h; sourceTree = "<group>"; };
+		3CEA358D1A6B66D00090E73B /* EditItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditItem.m; sourceTree = "<group>"; };
+		3CEA358F1A6B6B690090E73B /* arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-back.png"; path = "../../../../Downloads/simpsons/arrow-back.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +106,21 @@
 		3CEA354D1A6B48F90090E73B /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				3CEA35741A6B4E780090E73B /* images */,
+				3CEA354E1A6B48F90090E73B /* Supporting Files */,
+				3CEA35831A6B53640090E73B /* Defaults.h */,
+				3CEA35841A6B53640090E73B /* Defaults.m */,
 				3CEA35521A6B48F90090E73B /* AppDelegate.h */,
 				3CEA35531A6B48F90090E73B /* AppDelegate.m */,
-				3CEA35551A6B48F90090E73B /* ViewController.h */,
-				3CEA35561A6B48F90090E73B /* ViewController.m */,
+				3CEA35551A6B48F90090E73B /* Welcome.h */,
+				3CEA35561A6B48F90090E73B /* Welcome.m */,
 				3CEA35581A6B48F90090E73B /* Main.storyboard */,
 				3CEA355B1A6B48F90090E73B /* Images.xcassets */,
 				3CEA355D1A6B48F90090E73B /* LaunchScreen.xib */,
-				3CEA354E1A6B48F90090E73B /* Supporting Files */,
+				3CEA35891A6B65DF0090E73B /* ShowItem.h */,
+				3CEA358A1A6B65DF0090E73B /* ShowItem.m */,
+				3CEA358C1A6B66D00090E73B /* EditItem.h */,
+				3CEA358D1A6B66D00090E73B /* EditItem.m */,
 			);
 			path = Practica1;
 			sourceTree = "<group>";
@@ -117,6 +149,21 @@
 				3CEA35691A6B48F90090E73B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CEA35741A6B4E780090E73B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3CEA358F1A6B6B690090E73B /* arrow-back.png */,
+				3CEA35811A6B50520090E73B /* The_Simpson.png */,
+				3CEA35751A6B4EB10090E73B /* Bart.png */,
+				3CEA35761A6B4EB10090E73B /* Family.jpg */,
+				3CEA35771A6B4EB10090E73B /* Homero.png */,
+				3CEA35781A6B4EB10090E73B /* Lisa.png */,
+				3CEA35791A6B4EB10090E73B /* Maggie.png */,
+				3CEA357A1A6B4EB10090E73B /* Marge.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +246,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEA357B1A6B4EB10090E73B /* Bart.png in Resources */,
+				3CEA35821A6B50520090E73B /* The_Simpson.png in Resources */,
+				3CEA357C1A6B4EB10090E73B /* Family.jpg in Resources */,
 				3CEA355A1A6B48F90090E73B /* Main.storyboard in Resources */,
+				3CEA35901A6B6B690090E73B /* arrow-back.png in Resources */,
 				3CEA355F1A6B48F90090E73B /* LaunchScreen.xib in Resources */,
 				3CEA355C1A6B48F90090E73B /* Images.xcassets in Resources */,
+				3CEA357E1A6B4EB10090E73B /* Lisa.png in Resources */,
+				3CEA357D1A6B4EB10090E73B /* Homero.png in Resources */,
+				3CEA35801A6B4EB10090E73B /* Marge.png in Resources */,
+				3CEA357F1A6B4EB10090E73B /* Maggie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEA35571A6B48F90090E73B /* ViewController.m in Sources */,
+				3CEA35571A6B48F90090E73B /* Welcome.m in Sources */,
+				3CEA35851A6B53640090E73B /* Defaults.m in Sources */,
+				3CEA358E1A6B66D00090E73B /* EditItem.m in Sources */,
 				3CEA35541A6B48F90090E73B /* AppDelegate.m in Sources */,
+				3CEA358B1A6B65DF0090E73B /* ShowItem.m in Sources */,
 				3CEA35511A6B48F90090E73B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

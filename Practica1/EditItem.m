@@ -7,6 +7,7 @@
 //
 
 #import "EditItem.h"
+#import "Defaults.h"
 
 @interface EditItem ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.imgEdit.image = [UIImage imageNamed:imgArray[pos]];
+    self.txtName.text  = nameArray[pos];
+    self.txtAge.text   = ageArray[pos];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +39,13 @@
 }
 */
 
+- (IBAction)btnSave:(id)sender {
+    nameArray[pos] = self.txtName.text;
+    ageArray[pos] = self.txtAge.text;
+    [self performSegueWithIdentifier:@"EditToShow" sender:self];
+}
+
+- (IBAction)btnCancel:(id)sender {
+    [self performSegueWithIdentifier:@"EditToShow" sender:self];
+}
 @end

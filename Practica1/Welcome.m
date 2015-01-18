@@ -18,17 +18,43 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    imgArray = [[NSMutableArray alloc]initWithObjects:
-                @"Family.jpg",
-                @"Homero.png",
-                @"Marge.png",
-                @"Bart.png",
-                @"Lisa.png",
-                @"Maggie.png",
-                nil
-                ];
-    pos = 0;
+    if (inited!=1) {
+        imgArray = [[NSMutableArray alloc]initWithObjects:
+                               @"Family.jpg",
+                               @"Homero.png",
+                               @"Marge.png",
+                               @"Bart.png",
+                               @"Lisa.png",
+                               @"Maggie.png",
+                               nil
+                               ];
+        nameArray = [[NSMutableArray alloc]initWithObjects:
+                                @"The Simpson",
+                                @"Homero",
+                                @"Marge",
+                                @"Bart",
+                                @"Lisa",
+                                @"Maggie",
+                                nil
+                                ];
+        ageArray = [[NSMutableArray alloc]initWithObjects:
+                               @"",
+                               @"40",
+                               @"35",
+                               @"16",
+                               @"12",
+                               @"2",
+                               nil
+                               ];
+        dataArray = [NSMutableArray arrayWithObjects:
+                                imgArray,
+                                nameArray,
+                                ageArray,
+                                nil
+                                ];
+        pos = 0;
+        inited = 1;
+    }
     self.imgWelcome.image = [UIImage imageNamed:imgArray[pos]];
 }
 
@@ -39,13 +65,13 @@
 
 
 - (IBAction)btnPrevPressed:(id)sender{
-    pos = pos==0? 5: pos-1;
+    pos  = pos==0? (int)imgArray.count-1: pos-1;
     self.imgWelcome.image = [UIImage imageNamed:imgArray[pos]];
 
 }
 
 - (IBAction)btnNextPressed:(id)sender {
-    pos = pos==5? 0: pos+1;
+    pos = pos==imgArray.count-1? 0: pos+1;
     self.imgWelcome.image = [UIImage imageNamed:imgArray[pos]];
 }
 

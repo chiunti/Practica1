@@ -15,10 +15,16 @@
 
 @implementation ShowItem
 
+// Define your step value
+float stepValue = 0.2f;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.imgShow.image = [UIImage imageNamed:imgArray[pos]];
+    self.lblName.text  = nameArray[pos];
+    self.lblAge.text   = ageArray[pos];
+    self.imgShow.alpha = 1;
 
 }
 
@@ -47,5 +53,12 @@
 
 - (IBAction)slideChanged:(id)sender {
     
+    // Get the closet "step"
+    float nextStep = round(self.slide.value / stepValue);
+    
+    // Convert that step to a value used by the slider
+    self.slide.value = (nextStep * stepValue);
+    
+    self.imgShow.alpha = self.slide.value;
 }
 @end

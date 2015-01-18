@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface EditItem : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *imgEdit;
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
+@property (weak, nonatomic) IBOutlet UITextField *txtAge;
+- (IBAction)btnSave:(id)sender;
+- (IBAction)btnCancel:(id)sender;
 
 @end

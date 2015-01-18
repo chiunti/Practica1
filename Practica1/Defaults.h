@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
 NSMutableArray *imgArray;
+NSMutableArray *nameArray;
+NSMutableArray *ageArray;
+NSMutableArray *dataArray;
 int pos;
+int inited;
 
 @interface Defaults : NSObject
 
 @end
+// message from which our instance is obtained
+//+ (Defaults *)sharedInstance;

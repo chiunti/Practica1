@@ -13,4 +13,8 @@
 - (IBAction)btnBackPressed:(id)sender;
 - (IBAction)btnEditPressed:(id)sender;
 - (IBAction)slideChanged:(id)sender;
+@property (weak, nonatomic) IBOutlet UISlider *slide;
+@property (weak, nonatomic) IBOutlet UILabel *lblName;
+@property (weak, nonatomic) IBOutlet UILabel *lblAge;
+
 @end

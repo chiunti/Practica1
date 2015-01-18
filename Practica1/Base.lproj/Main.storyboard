@@ -86,7 +86,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Family.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cSN-fJ-l7M" userLabel="imgShow">
                                 <rect key="frame" x="67" y="77" width="187" height="310"/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="bPA-mT-IyY">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="bPA-mT-IyY" userLabel="slide">
                                 <rect key="frame" x="33" y="472" width="255" height="31"/>
                                 <connections>
                                     <action selector="slideChanged:" destination="X5M-Wd-DcH" eventType="valueChanged" id="spj-fc-4Jh"/>

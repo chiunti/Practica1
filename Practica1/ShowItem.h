@@ -13,5 +13,4 @@
 - (IBAction)btnBackPressed:(id)sender;
 - (IBAction)btnEditPressed:(id)sender;
 - (IBAction)slideChanged:(id)sender;
-
 @end

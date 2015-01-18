@@ -54,6 +54,7 @@
                                 ];
         pos = 0;
         inited = 1;
+
     }
     self.imgWelcome.image = [UIImage imageNamed:imgArray[pos]];
 }
